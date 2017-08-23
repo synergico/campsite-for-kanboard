@@ -38,4 +38,4 @@ Edit the skin.css file to start theming. :)
 5. Card should provide a few (3) information, not a lot. (this is subjective)
 
 ## Screenshots
-![Alt text](https://raw.github.com/synergico/campsite-for-kanboard/Screenshots/Screen Shot 2017-08-23 at 11.40.31.png)
+![Alt text](https://raw.github.com/synergico/campsite-for-kanboard/1.png)
