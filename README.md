@@ -5,6 +5,10 @@ Many thanks to CSS Milligram UI, milligram.io
 and Basecamp for their inspriation.
 
 Font in use: Valera round Regular (from Google font)
+## INSTALLATION
+- Unzip the whole thing into your plugin folder
+- That's it.
+- Edit the skin.css file to start theming. :)
 
 ## Theming objectives: 
 1. Only use CSS, minimal disruption to the code.
@@ -33,8 +37,3 @@ Font in use: Valera round Regular (from Google font)
 3. Users click buttons -> expecting something to happen
 4. Users click tabs -> expecting page layout to stay the same, only the tab content change
 5. Card should provide a few (3) information, not a lot. (this is subjective)
-
-INSTALLATION
-- Unzip the whole thing into your plugin folder
-- That's it.
-- Edit the skin.css file to start theming. :)
