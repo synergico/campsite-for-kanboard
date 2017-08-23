@@ -1,0 +1,311 @@
+/*reduced milligram's typography size */
+a{
+    color:#3cb371;
+}
+a:hover{
+    color:#2ecc71;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.select-dropdown-input-container {
+    display: none;
+}
+
+h1 {
+  font-size: 2.6rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.3rem;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 1.7rem;
+  letter-spacing: -.08rem;
+  line-height: 1.35;
+}
+
+h5 {
+  font-size: 1.4rem;
+  letter-spacing: -.05rem;
+  line-height: 1.5;
+}
+
+h6 {
+  font-size: 1.1rem;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+/*Theming with css only*/
+
+body{
+    background-color:#f6f0e6;
+    color: #34495e;
+    margin: 0;
+    font-family: 'varela_roundregular', san-serifs;
+}
+#main {
+    width:112.0rem;
+    margin: 20px auto;
+}
+.sidebar-container .sidebar-content {
+    width:80%;
+}
+#dashboard{
+    width:76.5rem;
+    margin: 20px auto;
+}
+#dashboard, #main .page-header{
+    margin-top: 0;
+}
+.page-header{
+    margin-top: 20px;
+}
+#user-section .sidebar-content,
+#task-view .sidebar-content,
+#dashboard .sidebar-content{
+    width: 100%;
+    margin-top: 20px;
+}
+
+header{
+    padding: 12px 30px;
+    margin: 0;
+    background: #f9f7f5;
+}
+header .title{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.page-header {
+    text-align: center;
+}
+/* Turn sidebar list into tabs*/
+#dashboard .sidebar, 
+#user-section .sidebar,
+#task-view .sidebar{
+    min-width:100%;
+    max-width:100%;
+    width:100%;
+    border-bottom: 1px solid #e1e4e8;
+}
+#dashboard .sidebar ul, 
+#user-section .sidebar ul:first-of-type,
+#task-view .sidebar ul:first-of-type{
+    list-style: none;
+	padding: 0 0 0 10px;
+}
+#dashboard .sidebar li, 
+#user-section .sidebar ul:first-of-type li,
+#task-view .sidebar ul:first-of-type li{
+    float: left;
+    border: none;
+	border-bottom-width: 0;
+	margin: 0 10px;
+}
+/*remove li black-bar*/
+#dashboard .sidebar li:hover, #dashboard .sidebar li.active, 
+#user-section .sidebar ul:first-of-type li:hover, #user-section .sidebar ul:first-of-type li.active,
+#user-section .sidebar ul:last-child li:hover, #user-section .sidebar ul:last-child li.active {
+    border:none; 
+    padding-left:13px;
+}
+#task-view .sidebar ul:first-of-type li:hover, #task-view .sidebar ul:first-of-type li.active,
+#task-view .sidebar ul:last-child li:hover, #task-view .sidebar ul:last-child li.active{
+    border:none; 
+    padding-left:0;
+}
+#dashboard .sidebar li.active a, 
+#user-section .sidebar ul:first-of-type li.active a,
+#task-view .sidebar ul:first-of-type li.active a{
+    float: left;
+    padding: 1px 7px; 
+    color: #586069;
+    white-space: nowrap;
+    border: solid transparent;
+    border-width: 1px 1px 1px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: -1px;
+    background-color: #f6f0e6;
+    font-size: 1.1em;
+}
+
+#dashboard .sidebar li.active a, 
+#user-section .sidebar ul:first-of-type li.active a,
+#task-view .sidebar ul:first-of-type li.active a{
+    color: #34495e;
+    border-color: #d5d5d5 #d5d5d5 transparent;
+}
+
+/******************************************/
+/*Turn Table-list into Card using CSS-Grid*/
+/******************************************/
+.table-list >*{
+ padding: 5px 10px;    
+}
+.table-list-header-menu .dropdown{
+    font-size: 2rem;
+}
+.filter-box{
+    width: 76.5rem;
+    margin: 10px auto;
+}
+.table-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    text-align: center;
+    margin: auto;
+    max-width: 76.5rem;
+    width: 100%;
+}
+.table-list-row, .table-list-row.table-border-left{
+    background-color: white;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border-radius: 5px;
+    text-overflow: clip;
+    height: 14rem;
+}
+.table-list-row .table-list-details{
+    font-size: 1.1rem;
+}
+.table-list-header{
+    background-color:#f6f0e6;
+    border: none;
+}
+.table-list .table-list-title {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.table-list-header .table-list-header-count{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #aa9c84;
+}
+.page-header h2 {
+    font-size: 2.5rem;
+}
+
+#board-container, #task-view {
+    width: 100%;
+}
+.views li {
+    padding: 9.5px 8px;
+}
+.views{
+    margin-top: 3px;
+}
+/*Project view*/
+.project-header, .project-overview-columns, .accordion-section {
+    width:76.5rem;
+    margin: 20px auto;
+    padding-bottom: 30px;
+}
+.accordion-title h3{
+    background-color:transparent;
+}
+/*********************************************/
+/*UX improvement for user-section, task-view */
+/*********************************************/
+
+#user-section .sidebar, #task-view .sidebar{
+    margin: -20px 0 50px;
+}
+#user-section .sidebar-title, #task-view .sidebar-title{
+    display: none; /*hide title Information and Action*/
+}
+#user-section .sidebar ul:first-of-type li:nth-child(2){
+    display: none; /*hide 'user dashboard'*/
+}
+#user-section .sidebar ul:first-of-type, #task-view .sidebar ul:first-of-type{
+    padding-bottom: 38px;
+    border-bottom: 1px solid #e1e4e8;
+}
+#user-section .sidebar ul:last-child li, #task-view .sidebar ul:last-child li{
+    float: left;
+    font-size: small;
+    margin-left: 10px;
+    background-color: #43b273;
+    border: 0px solid transparent;
+    border-radius: 3px;
+}
+#user-section .sidebar ul:last-child li:hover,
+ #task-view .sidebar ul:last-child li:hover{
+    background-color: #2ecc71;
+}
+#user-section .sidebar ul:last-child li a,
+#task-view .sidebar ul:last-child li a{
+    color: white;
+    font-weight:bold;
+    margin: 0 7px;
+}
+#user-section, 
+#task-view{
+    max-width: 76.5rem;
+    width: 100%;
+    margin: 0px auto;
+}
+/*btn-blue*/
+.btn-blue{
+    font-size: small;
+    background-color: #3498db;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    padding:0 13px;
+    text-transform: lowercase;
+}
+.btn-blue:hover{
+    background-color: #2980b9;
+}
+/*Modal Box*/
+#modal-box{
+    padding:20px;
+}
+#modal-box #modal-content #main{
+    width:100%;
+}
+#modal-content {
+    font-size: small;
+}
+#modal-content label{
+    font-size: 1.3rem;
+}
+.task-form-container{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr;
+    grid-gap: 25px;
+}
+.task-form-container >*{
+    width:80%;
+}
+/*Project creation form*/
+#project-creation-form{
+    max-width: 30rem;
+    width: 100%;
+}
+/*Task card content*/
+.task-date {
+    display: none;
+}
+/*id= config section , settings*/
+#config-section .sidebar-content{
+    width: 80%;
+}
