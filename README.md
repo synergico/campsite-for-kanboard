@@ -1,10 +1,8 @@
 # campsite-for-kanboard
 
-An Basecamp-inspired css-only themes for kanboard
+An Basecamp-inspired css-only themes for Kanboard. Extremely small size.
 Many thanks to CSS Milligram UI, milligram.io and Basecamp for their inspriation.
-
 Font in use: Valera round Regular (from Google font)
-
 ## INSTALLATION
 Unzip the whole thing into your plugin folder
 That's it.
@@ -38,4 +36,6 @@ Edit the skin.css file to start theming. :)
 3. Users click buttons -> expecting something to happen
 4. Users click tabs -> expecting page layout to stay the same, only the tab content change
 5. Card should provide a few (3) information, not a lot. (this is subjective)
+
+## Screenshots
 
