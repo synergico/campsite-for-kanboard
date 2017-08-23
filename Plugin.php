@@ -25,7 +25,7 @@ class Plugin extends Base
 
     public function getPluginAuthor()
     {
-        return 'Author';
+        return 'Tri Nguyen';
     }
 
     public function getPluginVersion()
