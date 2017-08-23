@@ -17,7 +17,7 @@ Font in use: Valera round Regular (from Google font)
 2. Learning by doing CSS
 3. Improve UX of kanboard (ofc)
 
-## Cons:
+### Cons:
 1. I'm doing this for fun, so my coding style is quick and (extremely) dirty
 2. Change in nameing style could break the whole thing.
 
