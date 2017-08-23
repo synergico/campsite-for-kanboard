@@ -9,6 +9,7 @@ That's it.
 Edit the skin.css file to start theming. :)
 
 ## Theming objectives:
+UX-focused, if an user takes a look, and intuitively understand how to use, then we are good :). For UI, borrow from Basecamp :D
 
 1. Only use CSS, minimal disruption to the code.
 2. A modern card-based theme
